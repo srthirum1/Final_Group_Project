@@ -1,7 +1,8 @@
 # Final_Group_Project
 
 #Presentation 
-Selected Topic: 
+Selected Topic:
+zaatrim: predict house pricing in CA 
 
 Reason why we selected the topic: 
 
