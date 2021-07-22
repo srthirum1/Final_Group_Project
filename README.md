@@ -18,5 +18,5 @@ Communication Methods:
 - using zoom meeting every Thursday as well from 7-9 to work on the project
 
 Roles & Descriptions: 
-
+Srividhya Thirumalairajan: Github Coordinator 
 
