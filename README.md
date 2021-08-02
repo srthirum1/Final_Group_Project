@@ -15,7 +15,6 @@ We will build Machine Learning Models to help investors and homeowners assess th
 ## Questions we Hope to answer:
 Motivation, Housing prices are a hot topic, especially During the COVID-19 Pandemic (Leading to increased demand for housing). We strive to build a Machine learning model to Guide investors, Potential Buyers, or Real estate professionals on housing prices per county. 
     1. we Will Build a supervised Neural Machine learning model using  House Age, SQF, Lot size & Days on the Market to predict the median House Price per SQF for the county. 
-    2. Run Linear regression analysis between Listing price and the sale price overtime to help homeowners and Buyers decide on the housing Listing and offering Prices. 
 
 
 
