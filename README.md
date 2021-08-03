@@ -19,7 +19,7 @@ Motivation, Housing prices are a hot topic, especially During the COVID-19 Pande
 
 
 ## Communications Protocols:
-o	Members: Trong Quyen, Srividhya Thirumalairajan, Dawit Daniel, Angelica Villanueva & Mikhail Zaatra
+o	Members: Trong Quyen, Srividhya Thirumalairajan, Dawit Alaro, Angelica Villanueva & Mikhail Zaatra
 
 ###    Segment 1:
     •	Roles and Responsibilities:
