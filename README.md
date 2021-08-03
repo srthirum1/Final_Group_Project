@@ -26,7 +26,7 @@ o	Members: Trong Quyen, Srividhya Thirumalairajan, Dawit Alaro, Angelica Villanu
     o	Presentation : Mikhail Zaatra
     o	GitHub: Srividhya Thirumalairajan
     o	Machine Learning Model : Trong Quyen , Angelica Villanueva,  Srividhya Thirumalairajan & Mikhail Zaatra
-    o	DataBase: Dawit Daniel  & Angelica Villanueva
+    o	DataBase: Dawit Alaro  & Angelica Villanueva
     o	DashBoard: N/A 
     o	
 ###    Project Tools: Collaboration: 
