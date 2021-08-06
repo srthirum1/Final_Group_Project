@@ -39,7 +39,7 @@ o	Members: Trong Quyen, Srividhya Thirumalairajan, Dawit Alaro, Angelica Villanu
 •	Final_data_processing.ipynb:
     o	Use google Colab and pyspark, and process this online
     o	Combine two data sources mentioned above "big_main.csv" and "county_zipcode.csv"
-    o	Use "StringIndex" from 'pyspark.ml.feature import' to assign a county name a number
+    o	Use "StringIndex" from pyspark.ml.feature import to assign a county name a number
     o	Joined two data sets together.  Cleaned up and deleted null values.
     ![Data Processing Yeah Data is cleaned](tq_folder/images/data_processing_1.png)
     o	Export the data to postgresql.  There are three sets of data exported: 'house_data.csv', 'sale_data.csv' and 'final_data.csv'.
