@@ -37,49 +37,29 @@ o	Members: Trong Quyen, Srividhya Thirumalairajan, Dawit Alaro, Angelica Villanu
 ##    Segment 2:
 
 •	Final_data_processing.ipynb:
-    o	Use google Colab and pyspark, and process this online
-    o	Combine two data sources mentioned above "big_main.csv" and "county_zipcode.csv"
-    o	Use "StringIndex" from 'pyspark.ml.feature import' to assign a county name a number
-    o	Joined two data sets together.  Cleaned up and deleted null values.
-    ![Data Processing Yeah Data is cleaned](tq_folder/images/data_processing_1.png)
-    o	Export the data to postgresql.  There are three sets of data exported: 'house_data.csv', 'sale_data.csv' and 'final_data.csv'.
-    ![Data Processing data export](tq_folder/images/data_processing_2.png)
+*   Use google Colab and pyspark, and process this online
+*   Combine two data sources mentioned above "big_main.csv" and "county_zipcode.csv"
+*   Use "StringIndex" from 'pyspark.ml.feature import' to assign a county name a number
+*   Joined two data sets together.  Cleaned up and deleted null values.<br> ![Data Processing Yeah Data is cleaned](tq_folder/images/data_processing_1.png)
+*   Export the data to postgresql.  There are three sets of data exported: 'house_data.csv', 'sale_data.csv' and 'final_data.csv'.<br> ![Data Processing data export](tq_folder/images/data_processing_2.png)
+
 
 •	Regression_Basic.ipynb
-    o	Read the 'final_data.csv' from AWS
-    o	The data has 4225 records. That amount is split 95% for training and 5% for testing.
-    o	That split means 4013 records are for training and 212 records for testing 
-    o	The result is impressive, with R squared is 95%.  The model can explain 95% of the price variation.
-    ![Regression Basic MSE and R squared](tq_folder/images/Regression_Basic_1.png)
-    o	The coefficients for the colums "County_Index|SqFtTotal|Lot_Size|Age|BathsTotal|BedsTotal|BathsFull|BathsHalf|DOM|Year_Sold|List_Price" is below:
-    ![Regression Basic Model Coefficients](tq_folder/images/Regression_Basic_2.png)
-    o	With this, one can build an estimate calculator.
-    o	With the coefficients above, we applied the coefficient to all the sales, and created a new column "Predicted Value".
-    o	"final_data.csv" with an extra column of "Predicted Value" is saved as "final_prediction_all.csv". This "final_prediction_all" will be used for mapping and visualization.
+* 	Read the 'final_data.csv' from AWS
+*   The data has 4225 records. That amount is split 95% for training and 5% for testing.
+*   That split means 4013 records are for training and 212 records for testing 
+*   The result is impressive, with R squared is 95%.  The model can explain 95% of the price variation.<br> ![Regression Basic MSE and R squared](tq_folder/images/Regression_Basic_1.png)
+*   The coefficients for the colums "County_Index|SqFtTotal|Lot_Size|Age|BathsTotal|BedsTotal|BathsFull|BathsHalf|DOM|Year_Sold|List_Price" is below:<br> ![Regression Basic Model Coefficients](tq_folder/images/Regression_Basic_2.png)
+*   With this, one can build an estimate calculator.
+*   With the coefficients above, we applied the coefficient to all the sales, and created a new column "Predicted Value".
+*   "final_data.csv" with an extra column of "Predicted Value" is saved as "final_prediction_all.csv". This "final_prediction_all" will be used for mapping and visualization.
+
     
 
 •	Roles and Responsibilities:
-    o	Presentation : Mikhail Zaatra
-    o	GitHub: Srividhya Thirumalairajan
-    o	Machine Learning Model : Trong Quyen , Angelica Villanueva,  Srividhya Thirumalairajan & Mikhail Zaatra
-    o	DataBase: Dawit Alaro  & Angelica Villanueva
-    o	DashBoard: N/A 
-    o	
-
-•	Roles and Responsibilities:
-    o	Presentation : Mikhail Zaatra
-    o	GitHub: Srividhya Thirumalairajan
-    o	Machine Learning Model : Trong Quyen , Angelica Villanueva,  Srividhya Thirumalairajan & Mikhail Zaatra
-    o	DataBase: Dawit Alaro  & Angelica Villanueva
-    o	DashBoard: N/A 
-    o	
-
-•	Roles and Responsibilities:
-    o	Presentation : Mikhail Zaatra
-    o	GitHub: Srividhya Thirumalairajan
-    o	Machine Learning Model : Trong Quyen , Angelica Villanueva,  Srividhya Thirumalairajan & Mikhail Zaatra
-    o	DataBase: Dawit Alaro  & Angelica Villanueva
-    o	DashBoard: N/A 
-    o	
-
+*   Presentation : Mikhail Zaatra
+*   GitHub: Srividhya Thirumalairajan
+*   Machine Learning Model : Trong Quyen , Srividhya Thirumalairajan & Mikhail Zaatra
+*   DataBase: Dawit Alaro  & Angelica Villanueva
+*   DashBoard: N/A 
 
