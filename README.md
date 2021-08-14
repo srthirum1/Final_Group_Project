@@ -54,7 +54,27 @@ o	Members: Trong Quyen, Srividhya Thirumalairajan, Dawit Alaro, Angelica Villanu
 *   With the coefficients above, we applied the coefficient to all the sales, and created a new column "Predicted Value".
 *   "final_data.csv" with an extra column of "Predicted Value" is saved as "final_prediction_all.csv". This "final_prediction_all" will be used for mapping and visualization.
 
-    
+##    Segment 3:
+
+•	Final_Regression_NN.ipynb
+*   This file is considered "final" because this file is a merge of Regression and Neural Network models together in one file
+*   The purpose is to force two models to accept the same number of X_train, y_train, X_test, and y_test data points
+*   This final file is even further broken down into 4 models: Regression with List_Price, Regression without List_Price, Neural Network with List_Price, and Neural_Network without List_Price.
+
+![Final Descriptive](Final_Project/images/1_Final_descriptive.png)
+
+1.  Regression with List_Price
+*   We have a list of coefficients. The List_Price is highly correlated with the Sale_Price, the model independent variable.
+![Model 1 coefficients](Final_Project/images/2_model1_coefficient.png)
+*   We have some metrics for model 1.  The R2_squared is 99%
+![model 1 metrics](Final_Project/images/3_model1_metrics.png)
+*   Here is an example how model 1 predicts:
+![Model 1 Sale Price examples](Final_Project/images/4_model1_saleprice_examples.png)
+*   Here is the plot of the model 1 residuals
+![model 1 residuals plot](Final_Project/images/5_model1_residuals_plot.png)
+
+
+
 
 •	Roles and Responsibilities:
 *   Presentation : Mikhail Zaatra
