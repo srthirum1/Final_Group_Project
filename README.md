@@ -56,22 +56,38 @@ o	Members: Trong Quyen, Srividhya Thirumalairajan, Dawit Alaro, Angelica Villanu
 
 ##    Segment 3:
 
-•	Final_Regression_NN.ipynb
+### Final_Regression_NN.ipynb
 *   This file is considered "final" because this file is a merge of Regression and Neural Network models together in one file
 *   The purpose is to force two models to accept the same number of X_train, y_train, X_test, and y_test data points
 *   This final file is even further broken down into 4 models: Regression with List_Price, Regression without List_Price, Neural Network with List_Price, and Neural_Network without List_Price.
 
 ![Final Descriptive](Final_Project/images/1_Final_descriptive.png)
 
-1.  Regression with List_Price
+####1.  Model 1: Regression with List_Price
 *   We have a list of coefficients. The List_Price is highly correlated with the Sale_Price, the model independent variable.
-![Model 1 coefficients](Final_Project/images/2_model1_coefficient.png)
+<br>![model 1 coefficients](Final_Project/images/2_model1_coefficient.png)
 *   We have some metrics for model 1.  The R2_squared is 99%
-![model 1 metrics](Final_Project/images/3_model1_metrics.png)
+<br>![model 1 metrics](Final_Project/images/3_model1_metrics.png)
 *   Here is an example how model 1 predicts:
-![Model 1 Sale Price examples](Final_Project/images/4_model1_saleprice_examples.png)
+<br>![model 1 Sale Price examples](Final_Project/images/4_model1_saleprice_examples.png)
 *   Here is the plot of the model 1 residuals
-![model 1 residuals plot](Final_Project/images/5_model1_residuals_plot.png)
+<br>![model 1 residuals plot](Final_Project/images/5_model1_residuals_plot.png)
+*   The prediction price plot can tells how closely model 1 predicts its Sale_Price
+<br>![model 1 Sale Price prediction plot](Final_Project/images/6_model1_prediction_plot.png)
+
+####2.  Model 2: Regression without List_Price
+*   We have a list of coefficients for model 2.  There is no coefficient for List_Price
+<br>![model 2 coefficients](Final_Project/images/7_model2_coefficient.png)
+*   Notice how the r2_square drops significantly to 65%. This means that model 2 can only predict 65.9% of the sale_price accurately.
+<br>![model 2 metrics](Final_Project/images/8_model2_metrics.png)
+*   Look at how well apart model 2 predicts Sale_Price
+<br>![model 2 Sale Price examples](Final_Project/images/9_model2_saleprice_examples.png)
+*   Take a peak at the model 2 residuals plot:
+<br>![model 2 residual plot](Final_Project/images/10_model2_residuals_plot.png)
+*   As expected, model 2 prediction is not as accurate as model 1
+<br>![model 2 sale price prediction plot](Final_Project/images/11_model2_prediction_plot.png)
+
+####3.  Model 3: Neural Network with List_Price
 
 
 
