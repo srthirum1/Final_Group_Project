@@ -22,8 +22,8 @@ o	Members: Trong Quyen, Srividhya Thirumalairajan, Dawit Alaro, Angelica Villanu
 • Roles and Responsibilities:
     o	Presentation : Mikhail Zaatra
     o	GitHub: Srividhya Thirumalairajan
-    o	Machine Learning Model : Trong Quyen , Angelica Villanueva,  Srividhya Thirumalairajan & Mikhail Zaatra
-    o	DataBase: Dawit Alaro  & Angelica Villanueva
+    o	Machine Learning Model : Trong Quyen , Srividhya Thirumalairajan & Mikhail Zaatra
+    o	DataBase: Dawit Alaro  
     o	DashBoard: N/A 
     
 • Project Tools: Collaboration: 
@@ -122,5 +122,5 @@ o	Members: Trong Quyen, Srividhya Thirumalairajan, Dawit Alaro, Angelica Villanu
 *   GitHub: Srividhya Thirumalairajan
 *   Machine Learning Model : Trong-Quyen Nguyen, Srividhya Thirumalairajan & Mikhail Zaatra
 *   DataBase: Dawit Alaro & Trong-Quyen Nguyen
-*   DashBoard: N/A 
+*   DashBoard: Mikhail Zaatra
 
