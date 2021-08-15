@@ -106,15 +106,17 @@ o	Members: Trong Quyen, Srividhya Thirumalairajan, Dawit Alaro, Angelica Villanu
 *   As expected, model 4 is amazingly not accurate.
 <br>![model 3 sale price prediction plot](Final_Project/images/18_model4_prediction_plot.png)
 
-#### 4.  Conclusion
+#### 5.  Conclusion
 <br>![conclusion rq2_squared](Final_Project/images/20_conclusion_r2_squared.png)
 
-*   With "List_Price" both Regression and Neural Network has a high r2_squared scores.  Without the "List_Price", Regression (model 2) model does a better job at prediction the "Sale_Price" than the Neural Network (model 4).
-*   So, what is the role of "List Price"? First, take a look at the original data
+*   With "List_Price", both Regression and Neural Network have a high r2_squared scores.  Without the "List_Price", Regression (model 2) model does a better job at prediction the "Sale_Price" than the Neural Network (model 4).
+*   So, what is the role of "List Price"? 
+*   First, take a look at the original data
 <br>![Final Descriptive](Final_Project/images/1_Final_descriptive.png)
-*   The data has lot of **QUANTITATIVE** parameters: SqFtTotal, Lot_Size, Age, BathsTotal, BedsTotal, BathsFull, BathsHalf, DOM, Year_Sold.  But it lacks the *"qualitative"* parameter.  Two houses of the same size, build the same year in the same neighborhood can have them constructed with different *quality"; for example, vinyl vs tile.
-*   While "List_Price" is highly correlated with the "Sale_Price", in this analysis, List_Price serve as the **ONLY** quality variable.  Sellers tend to ask for a higher price if the house has been remodeled recently.
+*   The data has lot of **QUANTITATIVE** parameters: SqFtTotal, Lot_Size, Age, BathsTotal, BedsTotal, BathsFull, BathsHalf, DOM, Year_Sold.  But it lacks the *"qualitative"* parameter.  Two houses of the same size, built the same year in the same neighborhood can have them constructed with different *quality"; for example, vinyl vs tile.
+*   While "List_Price" is highly correlated with the "Sale_Price", in this analysis, List_Price serves as the **ONLY** quality variable.  Sellers tend to ask for a higher price if the house has been remodeled recently.
 
+= = = = = = = = = = = = = = = = = = = = = = =
 •	Roles and Responsibilities:
 *   Presentation : Mikhail Zaatra
 *   GitHub: Srividhya Thirumalairajan
