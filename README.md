@@ -60,8 +60,7 @@ o	Members: Trong Quyen, Srividhya Thirumalairajan, Dawit Alaro, Angelica Villanu
 *   This file is considered "final" because this file is a merge of Regression and Neural Network models together
 *   The purpose is to force two types of learning to accept the same number of X_train, y_train, X_test, and y_test data points
 *   This final file is even further broken down into 4 models: Regression with List_Price, Regression without List_Price, Neural Network with List_Price, and Neural_Network without List_Price.
-
-![Final Descriptive](Final_Project/images/1_Final_descriptive.png)
+<br>![Final Descriptive](Final_Project/images/1_Final_descriptive.png)
 
 #### 1.  Model 1: Regression with List_Price
 *   We have a list of coefficients. The List_Price is highly correlated with the Sale_Price, the model dependent variable.
