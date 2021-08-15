@@ -57,28 +57,28 @@ o	Members: Trong Quyen, Srividhya Thirumalairajan, Dawit Alaro, Angelica Villanu
 ##    Segment 3:
 
 ### Final_Regression_NN.ipynb
-*   This file is considered "final" because this file is a merge of Regression and Neural Network models together in one file
-*   The purpose is to force two models to accept the same number of X_train, y_train, X_test, and y_test data points
+*   This file is considered "final" because this file is a merge of Regression and Neural Network models together
+*   The purpose is to force two types of learning to accept the same number of X_train, y_train, X_test, and y_test data points
 *   This final file is even further broken down into 4 models: Regression with List_Price, Regression without List_Price, Neural Network with List_Price, and Neural_Network without List_Price.
 
 ![Final Descriptive](Final_Project/images/1_Final_descriptive.png)
 
 #### 1.  Model 1: Regression with List_Price
-*   We have a list of coefficients. The List_Price is highly correlated with the Sale_Price, the model independent variable.
+*   We have a list of coefficients. The List_Price is highly correlated with the Sale_Price, the model dependent variable.
 <br>![model 1 coefficients](Final_Project/images/2_model1_coefficient.png)
 *   We have some metrics for model 1.  The R2_squared is 99%
 <br>![model 1 metrics](Final_Project/images/3_model1_metrics.png)
 *   Here is an example how model 1 predicts:
 <br>![model 1 Sale Price examples](Final_Project/images/4_model1_saleprice_examples.png)
-*   Here is the plot of the model 1 residuals
+*   Here is the residuals plot of the model 1
 <br>![model 1 residuals plot](Final_Project/images/5_model1_residuals_plot.png)
-*   The prediction price plot can tells how closely model 1 predicts its Sale_Price
+*   The prediction price plot can tell how closely model 1 predicts its Sale_Price
 <br>![model 1 Sale Price prediction plot](Final_Project/images/6_model1_prediction_plot.png)
 
 #### 2.  Model 2: Regression without List_Price
 *   We have a list of coefficients for model 2.  There is no coefficient for List_Price
 <br>![model 2 coefficients](Final_Project/images/7_model2_coefficient.png)
-*   Notice how the r2_square drops significantly to 65%. This means that model 2 can only predict 65.9% of the sale_price accurately.
+*   Notice how the r2_square drops significantly to 65.9%. This means that model 2 can only predict 65.9% of the sale_price accurately.
 <br>![model 2 metrics](Final_Project/images/8_model2_metrics.png)
 *   Look at how well apart model 2 predicts Sale_Price
 <br>![model 2 Sale Price examples](Final_Project/images/9_model2_saleprice_examples.png)
@@ -89,32 +89,37 @@ o	Members: Trong Quyen, Srividhya Thirumalairajan, Dawit Alaro, Angelica Villanu
 
 #### 3.  Model 3: Neural Network with List_Price
 *   Model 3 neural network deploys three hidden layers of "relu" with 15, 20, 10 neurons respectively.  The final layer activation is "linear". This model uses optimizer='Adam', loss='mean_absolute_error', metrics=['MSE'].
-*   Notice how the value or R2_squared is pretty good at 98%
+<br>![Model 3 NN summary](Final_Project/images/12_model3_summary.png)
+*   Notice how the value of R2_squared is pretty good at 98.6%
 <br>![model 3 metrics](Final_Project/images/12_model3_metrics.png)
-*  Here is the sale price examples of model 3; see column "Prediction 3"
+*  Here is the sale price examples of model 3
 <br>![model 3 sale price examples](Final_Project/images/13_model3_saleprice_examples.png)
 *   As expected, model 3 is pretty good at predicting the Sale_Price
 <br>![model 3 sale price prediction plot](Final_Project/images/15_model3_prediction_plot.png)
 
-#### 4.  Model 3: Neural Network with List_Price
+#### 4.  Model 4: Neural Network without List_Price
 *   Model 4 is exactly the same as model 3; it deploys three hidden layers of "relu" with 15, 20, 10 neurons respectively.  The final layer activation is "linear". This model uses optimizer='Adam', loss='mean_absolute_error', metrics=['MSE'].
+<br>![Model 4 NN summary](Final_Project/images/16_model4_summary.png)
 *   One big difference is that it has no input of "List_Price"
-*   Notice how the value or R2_squared is pretty good at 98%
+*   Notice how the value of R2_squared is bad at 34.04%
 <br>![model 3 metrics](Final_Project/images/16_model4_metrics.png)
 *  Column "Prediction 4" lists the prediction of model 4.  Amazingly, it is far from the true Sale_Price.
 <br>![model 3 sale price examples](Final_Project/images/17_model4_saleprice_examples.png)
 *   As expected, model 4 is amazingly not accurate.
 <br>![model 3 sale price prediction plot](Final_Project/images/18_model4_prediction_plot.png)
 
-#### 4.  Conclusion
+#### 5.  Conclusion
 <br>![conclusion rq2_squared](Final_Project/images/20_conclusion_r2_squared.png)
 
-*   With "List_Price" both Regression and Neural Network has a high r2_squared scores.  Without the "List_Price", Regression (model 2) model does a better job at prediction the "Sale_Price" than the Neural Network (model 4).
-*   So, what is the role of "List Price"? First, take a look at the original data
+*   With "List_Price", both Regression and Neural Network have a high r2_squared scores.  Without the "List_Price", Regression (model 2) does a better job at prediction the "Sale_Price" than the Neural Network (model 4).
+<br>![Conclusion prediction all](Final_Project/images/20_conclusion_prediction_all.png)
+*   So, what is the role of "List Price"? 
+*   First, take a look at the original data
 <br>![Final Descriptive](Final_Project/images/1_Final_descriptive.png)
-*   The data has lot of **QUANTITATIVE** parameters: SqFtTotal, Lot_Size, Age, BathsTotal, BedsTotal, BathsFull, BathsHalf, DOM, Year_Sold.  But it lacks the *"qualitative"* parameter.  Two houses of the same size, build the same year in the same neighborhood can have them constructed with different *quality"; for example, vinyl vs tile.
-*   While "List_Price" is highly correlated with the "Sale_Price", in this analysis, List_Price serve as the **ONLY** quality variable.  Sellers tend to ask for a higher price if the house has been remodeled recently.
+*   The data has lot of **QUANTITATIVE** parameters: SqFtTotal, Lot_Size, Age, BathsTotal, BedsTotal, BathsFull, BathsHalf, DOM, Year_Sold.  But it lacks the *"qualitative"* parameter.  Two houses of the same size, built the same year in the same neighborhood can have them constructed with different *quality"; for example, vinyl vs tile.
+*   While "List_Price" is highly correlated with the "Sale_Price", in this analysis, List_Price serves as the **ONLY** quality parameter.  For example, sellers tend to ask for a higher price if the house has been remodeled recently.
 
+= = = = = = = = = = = = = = = = = = = = = = =
 •	Roles and Responsibilities:
 *   Presentation : Mikhail Zaatra
 *   GitHub: Srividhya Thirumalairajan
