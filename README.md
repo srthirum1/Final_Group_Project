@@ -119,11 +119,11 @@ o	Members: Trong Quyen, Srividhya Thirumalairajan, Dawit Alaro, Angelica Villanu
 *   The data has lot of **QUANTITATIVE** parameters: SqFtTotal, Lot_Size, Age, BathsTotal, BedsTotal, BathsFull, BathsHalf, DOM, Year_Sold.  But it lacks the *"qualitative"* parameter.  Two houses of the same size, built the same year in the same neighborhood can have them constructed with different *quality"; for example, vinyl vs tile.
 *   While "List_Price" is highly correlated with the "Sale_Price", in this analysis, List_Price serves as the **ONLY** quality parameter.  For example, sellers tend to ask for a higher price if the house has been remodeled recently.
 
-= = = = = = = = = = = = = = = = = = = = = = =
+= = = = = = = = = = = = = = = = = = = = = = =<br>
 •	Roles and Responsibilities:
 *   Presentation : Mikhail Zaatra
 *   GitHub: Srividhya Thirumalairajan
 *   Machine Learning Model : Trong Quyen , Srividhya Thirumalairajan & Mikhail Zaatra
-*   DataBase: Dawit Alaro  & Angelica Villanueva
+*   DataBase: Dawit Alaro  & Trong-Quyen Nguyen
 *   DashBoard: N/A 
 
