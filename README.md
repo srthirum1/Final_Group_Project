@@ -89,7 +89,7 @@ o	Members: Trong Quyen, Srividhya Thirumalairajan, Dawit Alaro, Angelica Villanu
 
 #### 3.  Model 3: Neural Network with List_Price
 *   Model 3 neural network deploys three hidden layers of "relu" with 15, 20, 10 neurons respectively.  The final layer activation is "linear". This model uses optimizer='Adam', loss='mean_absolute_error', metrics=['MSE'].
-<br>![Model 3 NN summary](Final_Project/images/12_model3_summary.png)
+<br>![NN Model 3 summary](Final_Project/images/12_model3_summary.png)
 *   Notice how the value of R2_squared is pretty good at 98.6%
 <br>![model 3 metrics](Final_Project/images/12_model3_metrics.png)
 *  Here is the sale price examples of model 3
@@ -99,7 +99,7 @@ o	Members: Trong Quyen, Srividhya Thirumalairajan, Dawit Alaro, Angelica Villanu
 
 #### 4.  Model 4: Neural Network without List_Price
 *   Model 4 is exactly the same as model 3; it deploys three hidden layers of "relu" with 15, 20, 10 neurons respectively.  The final layer activation is "linear". This model uses optimizer='Adam', loss='mean_absolute_error', metrics=['MSE'].
-<br>![Model 4 NN summary](Final_Project/images/16_model4_summary.png)
+<br>![NN Model 4 summary](Final_Project/images/16_model4_summary.png)
 *   One big difference is that it has no input of "List_Price"
 *   Notice how the value of R2_squared is bad at 34.04%
 <br>![model 3 metrics](Final_Project/images/16_model4_metrics.png)
@@ -112,14 +112,14 @@ o	Members: Trong Quyen, Srividhya Thirumalairajan, Dawit Alaro, Angelica Villanu
 <br>![conclusion rq2_squared](Final_Project/images/20_conclusion_r2_squared.png)
 
 *   With "List_Price", both Regression and Neural Network have a high r2_squared scores.  Without the "List_Price", Regression (model 2) does a better job at prediction the "Sale_Price" than the Neural Network (model 4).
-<br>![Conclusion prediction all](Final_Project/images/20_conclusion_prediction_all.png)
+<br>![Conclusion Prediction all](Final_Project/images/20_conclusion_prediction_all.png)
 *   So, what is the role of "List Price"? 
 *   First, take a look at the original data
 <br>![Final Descriptive](Final_Project/images/1_Final_descriptive.png)
 *   The data has lot of **QUANTITATIVE** parameters: SqFtTotal, Lot_Size, Age, BathsTotal, BedsTotal, BathsFull, BathsHalf, DOM, Year_Sold.  But it lacks the *"qualitative"* parameter.  Two houses of the same size, built the same year in the same neighborhood can have them constructed with different *quality"; for example, vinyl vs tile.
 *   While "List_Price" is highly correlated with the "Sale_Price", in this analysis, List_Price serves as the **ONLY** quality parameter.  For example, sellers tend to ask for a higher price if the house has been remodeled recently.
 
-= = = = = = = = = = = = = = = = = = = = = = =
+= = = = = = = = = = = = = = = = = = = = = = =<br>
 •	Roles and Responsibilities:
 *   Presentation : Mikhail Zaatra
 *   GitHub: Srividhya Thirumalairajan
