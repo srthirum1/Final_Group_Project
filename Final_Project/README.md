@@ -4,9 +4,9 @@
 
 1. the presentation:<br>
 
-*<a href="Final_Project/CA%20Housing%20Prices%20Analysis.pptx" target="_blank">CA_Housing_Prices_Analysis.pptx</a>: this will be edited to be our presentation powerpoint.<br>
+*<a href="Final_Project/CA%20Housing%20Prices%20Analysis.pptx" target="_blank">CA_Housing_Prices_Analysis.pptx</a>: this will be edited for our presentation.<br>
 
-*<a href="Final_Project/Final_Project-CA%20Housing%20Price%20Analysis.twbx" target="_blank">Final_Project-CA%20Housing_Price_Analysis.twbx</a>: This is an inter-active dashboard where you can pick and choose county, city or zip on various measure.<br>
+*<a href="Final_Project/Final_Project-CA%20Housing%20Price%20Analysis.twbx" target="_blank">Final_Project-CA%20Housing_Price_Analysis.twbx</a>: This is an inter-active dashboard where you can pick and choose county, city or zip on various measures.<br>
 
 2. GitHub:<br>
 
