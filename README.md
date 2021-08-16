@@ -18,39 +18,25 @@ Motivation, Housing prices are a hot topic, especially During the COVID-19 Pande
 3. We will compare the result of the two and discuss any pros and cons.<br>
 
 ## Communications Protocols:
-o	Members: Trong-Quyen Nguyen, Srividhya Thirumalairajan, Dawit Alaro, Angelica Villanueva & Mikhail Zaatra
+* Members: Trong-Quyen Nguyen, Srividhya Thirumalairajan, Dawit Alaro, Angelica Villanueva & Mikhail Zaatra
 
 ##    Segment 1:
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> main
-• Roles and Responsibilities:<br>
+
+* Roles and Responsibilities:<br>
     o	Presentation : Mikhail Zaatra<br>
     o	GitHub: Srividhya Thirumalairajan<br>
     o	Machine Learning Model : Trong-Quyen Nguyen, Angelica Villanueva,  Srividhya Thirumalairajan & Mikhail Zaatra<br>
     o	DataBase: Dawit Alaro  & Angelica Villanueva<br>
-<<<<<<< HEAD
-=======
-=======
-• Roles and Responsibilities:
-    o	Presentation : Mikhail Zaatra
-    o	GitHub: Srividhya Thirumalairajan
-    o	Machine Learning Model : Trong Quyen , Srividhya Thirumalairajan & Mikhail Zaatra
-    o	DataBase: Dawit Alaro  
->>>>>>> 5bba4f20af948edf379d4a2fb3a9d6a9d1f09c61
->>>>>>> main
-    o	DashBoard: N/A 
-    
-• Project Tools: Collaboration:<br>
-o	Communication Methods:<br>
-    o	GitHub will be the Main tool for Documents and Code Development.<br>
+
+* Project Tools: Collaboration:<br>
+* Communication Methods:<br>
+    *GitHub will be the Main tool for Documents and Code Development.<br>
         - Sharing resources via slack<br>
         - using zoom meeting every Thursday as well from 7-9 to work on the project
     
 ##    Segment 2:
 
-•	Final_data_processing.ipynb:
+*Final_data_processing.ipynb:
 *   Use google Colab and pyspark, and process this online
 *   Combine two data sources mentioned above "big_main.csv" and "county_zipcode.csv"
 *   Use "StringIndex" from 'pyspark.ml.feature import' to assign a county name a number
@@ -58,7 +44,7 @@ o	Communication Methods:<br>
 *   Export the data to postgresql.  There are three sets of data exported: 'house_data.csv', 'sale_data.csv' and 'final_data.csv'.<br> ![Data Processing data export](Final_Project/images/data_processing_2.png)
 
 
-•	Regression_Basic.ipynb
+*Regression_Basic.ipynb
 * 	Read the 'final_data.csv' from AWS
 *   The data has 4225 records. That amount is split 95% for training and 5% for testing.
 *   That split means 4013 records are for training and 212 records for testing 
@@ -70,7 +56,7 @@ o	Communication Methods:<br>
 
 ##    Segment 3:
 
-•	Final_Regression_NN.ipynb
+*Final_Regression_NN.ipynb
 *   This file is considered "final" because this file is a merge of Regression and Neural Network learnings together
 *   The purpose is to force two types of learning to accept the same number of X_train, y_train, X_test, and y_test data points
 *   This final file is even further broken down into 4 models: Regression with List_Price, Regression without List_Price, Neural Network with List_Price, and Neural_Network without List_Price.
@@ -133,7 +119,23 @@ o	Communication Methods:<br>
 *   While "List_Price" is highly correlated with the "Sale_Price", in this analysis, List_Price serves as the **ONLY** quality parameter.  For example, sellers tend to ask for a higher price if the house has been remodeled recently.
 
 #### 6.  Submission Details
-This week, you should be submitting a link to your GitHub repository, which should contain all the deliverables for the presentation, GitHub, machine learning model, and database sections.
+This week, you should be submitting a link to your GitHub repository, which should contain all the deliverables for:
+
+1. the presentation:<br>
+
+*<a href="Final_Project/CA%20Housing%20Prices%20Analysis.pptx" target="_blank">CA_Housing_Prices_Analysis.pptx</a>: this will be edited to be our presentation powerpoint.<br>
+
+*<a href="Final_Project/Final_Project-CA%20Housing%20Price%20Analysis.twbx" target="_blank">Final_Project-CA%20Housing_Price_Analysis.twbx</a>: This is an inter-active dashboard where you can pick and choose county, city or zip on various measure.<br>
+
+2. GitHub:<br>
+
+3. machine learning model: <a href="Final_Project/Final_Regression_NN.ipynb" target="_blank">Final_Regression_NN.ipynb</a><br>
+
+4. and database sections: these two sets of data are used for presentation
+
+* <a href="Final_Project/Data/final_data.csv" target="_blank">final_data.csv</a><br>
+
+* <a href="Final_Project/Data/final_prediction_all_2.csv" target="_blank">final_prediction_all_2.csv</a><br>
 
 = = = = = = = = = = = = = = = = = = = = = = =<br>
 •	Roles and Responsibilities:
@@ -141,9 +143,6 @@ This week, you should be submitting a link to your GitHub repository, which shou
 *   GitHub: Srividhya Thirumalairajan
 *   Machine Learning Model : Trong-Quyen Nguyen, Srividhya Thirumalairajan & Mikhail Zaatra
 *   DataBase: Dawit Alaro & Trong-Quyen Nguyen
-<<<<<<< HEAD
-*   DashBoard: N/A 
-=======
 *   DashBoard: Mikhail Zaatra
->>>>>>> main
+
 
