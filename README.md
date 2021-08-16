@@ -5,32 +5,34 @@ In this project, we will Predict the average housing prices per SQF for each cou
 We will build Machine Learning Models to help investors and homeowners assess the housing prices in California based on Housing transactions. We will build a  supervised neural network machine learning model using the following independent parameters, Zip Code, House Age, SQFT, and Days on Market.
 
 ## Data Source
-1) MLS Data, https://pro.mlslistings.com/, is deposited at "amazonaws.com" with the name 'big_main.csv". The dataset includes 4344 housing sale transactions in California for the period from 6/2020 till 6/2021. The dataset includes Street_Address	City, Zip_Code, SqFtTotal, Lot_Size, Age, BathsTotal, BedsTotal, BathsFull, BathsHalf, DOM, Year_Sold, Year_List, List_Price, Sale_Price, Listing_Date, Sale_Date, Year_Built. 
+
+1) MLS Data, https://pro.mlslistings.com/, is deposited at "amazonaws.com" with the name 'big_main.csv". The data set includes 4344 housing sale transactions in California for the period from 6/2020 till 6/2021. The data set includes Street_Address, City, Zip_Code, SqFtTotal, Lot_Size, Age, BathsTotal, BedsTotal, BathsFull, BathsHalf, DOM, Year_Sold, Year_List, List_Price, Sale_Price, Listing_Date, Sale_Date, Year_Built. 
 
 2) Additional Data set includes "county_zipcode.csv" which was deposited at "amazonaws.com". This files lists all the Zip Codes to County Name. It is from <a href="https://data.chhs.ca.gov/dataset/ead44d40-fd63-4f9f-950a-3b0111074de8/resource/ec32eece-7474-4488-87f0-6e91cb577458/download/covid19vaccinesbyzipcode_test.csv" target="_blank">California Health and Human Services Open Data Portal</a>
 
 ## Questions we Hope to answer:
-Motivation, Housing prices are a hot topic, especially During the COVID-19 Pandemic (Leading to increased demand for housing). We strive to build a Machine learning model to Guide investors, Potential Buyers, or Real estate professionals on housing prices per county. 
-    1. we Will Build a supervised Neural Machine learning model using  House Age, SQF, Lot size & Days on the Market to predict the median House Price per SQF for the county. 
 
-
+Motivation, Housing prices are a hot topic, especially During the COVID-19 Pandemic (Leading to increased demand for housing). We strive to build a Machine learning model to Guide investors, Potential Buyers, or Real estate professionals on housing prices per county.<br>
+1. We will build a supervised Neural Machine learning model using  House Age, SQF, Lot size & Days on the Market to predict the house Sale Price per SQF for each test data point.<br>
+2. We will build a regression model to do the same<br>
+3. We will compare the result of the two and discuss any pros and cons.<br>
 
 ## Communications Protocols:
-o	Members: Trong Quyen, Srividhya Thirumalairajan, Dawit Alaro, Angelica Villanueva & Mikhail Zaatra
+o	Members: Trong-Quyen Nguyen, Srividhya Thirumalairajan, Dawit Alaro, Angelica Villanueva & Mikhail Zaatra
 
 ##    Segment 1:
-• Roles and Responsibilities:
-    o	Presentation : Mikhail Zaatra
-    o	GitHub: Srividhya Thirumalairajan
-    o	Machine Learning Model : Trong Quyen , Angelica Villanueva,  Srividhya Thirumalairajan & Mikhail Zaatra
-    o	DataBase: Dawit Alaro  & Angelica Villanueva
+• Roles and Responsibilities:<br>
+    o	Presentation : Mikhail Zaatra<br>
+    o	GitHub: Srividhya Thirumalairajan<br>
+    o	Machine Learning Model : Trong-Quyen Nguyen, Angelica Villanueva,  Srividhya Thirumalairajan & Mikhail Zaatra<br>
+    o	DataBase: Dawit Alaro  & Angelica Villanueva<br>
     o	DashBoard: N/A 
     
-• Project Tools: Collaboration: 
-    o	Communication Methods: 
-    o	GitHub will be the Main tool for Documents and Code Development. 
-    o	- Sharing resources via slack
-    o	- using zoom meeting every Thursday as well from 7-9 to work on the project
+• Project Tools: Collaboration:<br>
+o	Communication Methods:<br>
+    o	GitHub will be the Main tool for Documents and Code Development.<br>
+        - Sharing resources via slack<br>
+        - using zoom meeting every Thursday as well from 7-9 to work on the project
     
 ##    Segment 2:
 
@@ -38,23 +40,23 @@ o	Members: Trong Quyen, Srividhya Thirumalairajan, Dawit Alaro, Angelica Villanu
 *   Use google Colab and pyspark, and process this online
 *   Combine two data sources mentioned above "big_main.csv" and "county_zipcode.csv"
 *   Use "StringIndex" from 'pyspark.ml.feature import' to assign a county name a number
-*   Joined two data sets together.  Cleaned up and deleted null values.<br> ![Data Processing Yeah Data is cleaned](tq_folder/images/data_processing_1.png)
-*   Export the data to postgresql.  There are three sets of data exported: 'house_data.csv', 'sale_data.csv' and 'final_data.csv'.<br> ![Data Processing data export](tq_folder/images/data_processing_2.png)
+*   Joined two data sets together.  Cleaned up and deleted null values.<br> ![Data Processing Yeah Data is cleaned](Final_Project/images/data_processing_1.png)
+*   Export the data to postgresql.  There are three sets of data exported: 'house_data.csv', 'sale_data.csv' and 'final_data.csv'.<br> ![Data Processing data export](Final_Project/images/data_processing_2.png)
 
 
 •	Regression_Basic.ipynb
 * 	Read the 'final_data.csv' from AWS
 *   The data has 4225 records. That amount is split 95% for training and 5% for testing.
 *   That split means 4013 records are for training and 212 records for testing 
-*   The result is impressive, with R squared is 95%.  The model can explain 95% of the price variation.<br> ![Regression Basic MSE and R squared](tq_folder/images/Regression_Basic_1.png)
-*   The coefficients for the colums "County_Index|SqFtTotal|Lot_Size|Age|BathsTotal|BedsTotal|BathsFull|BathsHalf|DOM|Year_Sold|List_Price" is below:<br> ![Regression Basic Model Coefficients](tq_folder/images/Regression_Basic_2.png)
+*   The result is impressive, with R squared is 95%.  The model can explain 95% of the price variation.<br> ![Regression Basic MSE and R squared](Final_Project/images/Regression_Basic_1.png)
+*   The coefficients for the colums "County_Index|SqFtTotal|Lot_Size|Age|BathsTotal|BedsTotal|BathsFull|BathsHalf|DOM|Year_Sold|List_Price" is below:<br> ![Regression Basic Model Coefficients](Final_Project/images/Regression_Basic_2.png)
 *   With this, one can build an estimate calculator.
 *   With the coefficients above, we applied the coefficient to all the sales, and created a new column "Predicted Value".
 *   "final_data.csv" with an extra column of "Predicted Value" is saved as "final_prediction_all.csv". This "final_prediction_all" will be used for mapping and visualization.
 
 ##    Segment 3:
 
-### Final_Regression_NN.ipynb
+•	Final_Regression_NN.ipynb
 *   This file is considered "final" because this file is a merge of Regression and Neural Network learnings together
 *   The purpose is to force two types of learning to accept the same number of X_train, y_train, X_test, and y_test data points
 *   This final file is even further broken down into 4 models: Regression with List_Price, Regression without List_Price, Neural Network with List_Price, and Neural_Network without List_Price.
@@ -115,6 +117,9 @@ o	Members: Trong Quyen, Srividhya Thirumalairajan, Dawit Alaro, Angelica Villanu
 <br>![Final Descriptive](Final_Project/images/1_Final_descriptive.png)
 *   The data has lot of **QUANTITATIVE** parameters: SqFtTotal, Lot_Size, Age, BathsTotal, BedsTotal, BathsFull, BathsHalf, DOM, Year_Sold.  But it lacks the *"qualitative"* parameter.  Two houses of the same size, built in the same year within the same neighborhood can have them constructed with different *quality"; for example, vinyl vs tile.
 *   While "List_Price" is highly correlated with the "Sale_Price", in this analysis, List_Price serves as the **ONLY** quality parameter.  For example, sellers tend to ask for a higher price if the house has been remodeled recently.
+
+#### 6.  Submission Details
+This week, you should be submitting a link to your GitHub repository, which should contain all the deliverables for the presentation, GitHub, machine learning model, and database sections.
 
 = = = = = = = = = = = = = = = = = = = = = = =<br>
 •	Roles and Responsibilities:
