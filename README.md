@@ -21,11 +21,25 @@ Motivation, Housing prices are a hot topic, especially During the COVID-19 Pande
 o	Members: Trong-Quyen Nguyen, Srividhya Thirumalairajan, Dawit Alaro, Angelica Villanueva & Mikhail Zaatra
 
 ##    Segment 1:
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 • Roles and Responsibilities:<br>
     o	Presentation : Mikhail Zaatra<br>
     o	GitHub: Srividhya Thirumalairajan<br>
     o	Machine Learning Model : Trong-Quyen Nguyen, Angelica Villanueva,  Srividhya Thirumalairajan & Mikhail Zaatra<br>
     o	DataBase: Dawit Alaro  & Angelica Villanueva<br>
+<<<<<<< HEAD
+=======
+=======
+• Roles and Responsibilities:
+    o	Presentation : Mikhail Zaatra
+    o	GitHub: Srividhya Thirumalairajan
+    o	Machine Learning Model : Trong Quyen , Srividhya Thirumalairajan & Mikhail Zaatra
+    o	DataBase: Dawit Alaro  
+>>>>>>> 5bba4f20af948edf379d4a2fb3a9d6a9d1f09c61
+>>>>>>> main
     o	DashBoard: N/A 
     
 • Project Tools: Collaboration:<br>
@@ -127,5 +141,9 @@ This week, you should be submitting a link to your GitHub repository, which shou
 *   GitHub: Srividhya Thirumalairajan
 *   Machine Learning Model : Trong-Quyen Nguyen, Srividhya Thirumalairajan & Mikhail Zaatra
 *   DataBase: Dawit Alaro & Trong-Quyen Nguyen
+<<<<<<< HEAD
 *   DashBoard: N/A 
+=======
+*   DashBoard: Mikhail Zaatra
+>>>>>>> main
 
