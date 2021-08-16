@@ -122,6 +122,8 @@ Motivation, Housing prices are a hot topic, especially During the COVID-19 Pande
 This week, you should be submitting a link to your GitHub repository, which should contain all the deliverables for:
 
 1. the presentation:<br>
+    https://docs.google.com/presentation/d/1SLSaP7A9qYda8DJs8cSLIt5KUAKRwIhh00xASNbRn84/edit?usp=sharing
+    
 
 *<a href="Final_Project/CA%20Housing%20Prices%20Analysis.pptx" target="_blank">CA_Housing_Prices_Analysis.pptx</a>: this will be edited for our presentation.<br>
 
