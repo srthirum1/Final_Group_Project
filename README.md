@@ -1,6 +1,6 @@
 # Housing Price analysis in CA (Final_Group_Project) 
 
-# Predicting CA Housing Prices  
+# Predicting CA Housing Prices
 In this project, we will Predict the average housing prices per SQF for each county in CA. Then we will Visualize the housing prices per county on a Map. 
 We will build Machine Learning Models to help investors and homeowners assess the housing prices in California based on Housing transactions. We will build a  supervised neural network machine learning model using the following independent parameters, Zip Code, House Age, SQFT, and Days on Market.
 
@@ -34,7 +34,8 @@ Motivation, Housing prices are a hot topic, especially During the COVID-19 Pande
         - Sharing resources via slack<br>
         - using zoom meeting every Thursday as well from 7-9 to work on the project
     
-##    Segment 2:
+
+##  Segment 2:
 
 *Final_data_processing.ipynb:
 *   Use google Colab and pyspark, and process this online
@@ -57,7 +58,7 @@ Motivation, Housing prices are a hot topic, especially During the COVID-19 Pande
 ##    Segment 3:
 
 *Final_Regression_NN.ipynb
-*   This file is considered "final" because this file is a merge of Regression and Neural Network learnings together
+*   This file is considered "final" because this file is a merge of Regression and Neural Network learning together
 *   The purpose is to force two types of learning to accept the same number of X_train, y_train, X_test, and y_test data points
 *   This final file is even further broken down into 4 models: Regression with List_Price, Regression without List_Price, Neural Network with List_Price, and Neural_Network without List_Price.
 <br>![Final Descriptive](Final_Project/images/1_Final_descriptive.png)
