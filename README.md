@@ -1,6 +1,6 @@
 # Housing Price analysis in CA (Final_Group_Project) 
 
-# Predicting CA Housing Prices  
+# Predicting CA Housing Prices
 In this project, we will Predict the average housing prices per SQF for each county in CA. Then we will Visualize the housing prices per county on a Map. 
 We will build Machine Learning Models to help investors and homeowners assess the housing prices in California based on Housing transactions. We will build a  supervised neural network machine learning model using the following independent parameters, Zip Code, House Age, SQFT, and Days on Market.
 
@@ -34,7 +34,8 @@ Motivation, Housing prices are a hot topic, especially During the COVID-19 Pande
         - Sharing resources via slack<br>
         - using zoom meeting every Thursday as well from 7-9 to work on the project
     
-##    Segment 2:
+
+##  Segment 2:
 
 *Final_data_processing.ipynb:
 *   Use google Colab and pyspark, and process this online
@@ -57,7 +58,7 @@ Motivation, Housing prices are a hot topic, especially During the COVID-19 Pande
 ##    Segment 3:
 
 *Final_Regression_NN.ipynb
-*   This file is considered "final" because this file is a merge of Regression and Neural Network learnings together
+*   This file is considered "final" because this file is a merge of Regression and Neural Network learning together
 *   The purpose is to force two types of learning to accept the same number of X_train, y_train, X_test, and y_test data points
 *   This final file is even further broken down into 4 models: Regression with List_Price, Regression without List_Price, Neural Network with List_Price, and Neural_Network without List_Price.
 <br>![Final Descriptive](Final_Project/images/1_Final_descriptive.png)
@@ -122,7 +123,7 @@ Motivation, Housing prices are a hot topic, especially During the COVID-19 Pande
 This week, you should be submitting a link to your GitHub repository, which should contain all the deliverables for:
 
 1. the presentation:<br>
-
+    https://docs.google.com/presentation/d/1SLSaP7A9qYda8DJs8cSLIt5KUAKRwIhh00xASNbRn84/edit?usp=sharing
 *<a href="Final_Project/CA%20Housing%20Prices%20Analysis.pptx" target="_blank">CA_Housing_Prices_Analysis.pptx</a>: this will be edited for our presentation.<br>
 
 *<a href="Final_Project/Final_Project-CA%20Housing%20Price%20Analysis.twbx" target="_blank">Final_Project-CA%20Housing_Price_Analysis.twbx</a>: This is an inter-active dashboard where you can pick and choose county, city or zip on various measures.<br>
