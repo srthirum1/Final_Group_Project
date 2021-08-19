@@ -4,6 +4,9 @@
 In this project, we will Predict the average housing prices per SQF for each county in CA. Then we will Visualize the housing prices per county on a Map. 
 We will build Machine Learning Models to help investors and homeowners assess the housing prices in California based on Housing transactions. We will build a  supervised neural network machine learning model using the following independent parameters, Zip Code, House Age, SQFT, and Days on Market.
 
+## Final Presentation Link
+https://docs.google.com/presentation/d/1SLSaP7A9qYda8DJs8cSLIt5KUAKRwIhh00xASNbRn84/edit#slide=id.p
+
 ## Data Source
 
 1) MLS Data, https://pro.mlslistings.com/, is deposited at "amazonaws.com" with the name 'big_main.csv". The data set includes 4344 housing sale transactions in California for the period from 6/2020 till 6/2021. The data set includes Street_Address, City, Zip_Code, SqFtTotal, Lot_Size, Age, BathsTotal, BedsTotal, BathsFull, BathsHalf, DOM, Year_Sold, Year_List, List_Price, Sale_Price, Listing_Date, Sale_Date, Year_Built. 
@@ -18,15 +21,15 @@ Motivation, Housing prices are a hot topic, especially During the COVID-19 Pande
 3. We will compare the result of the two and discuss any pros and cons.<br>
 
 ## Communications Protocols:
-* Members: Trong-Quyen Nguyen, Srividhya Thirumalairajan, Dawit Alaro, Angelica Villanueva & Mikhail Zaatra
+* Members: Trong-Quyen Nguyen, Srividhya Thirumalairajan, Dawit Alaro, Mikhail Zaatra
 
 ##    Segment 1:
 
 * Roles and Responsibilities:<br>
     o	Presentation : Mikhail Zaatra<br>
     o	GitHub: Srividhya Thirumalairajan<br>
-    o	Machine Learning Model : Trong-Quyen Nguyen, Angelica Villanueva,  Srividhya Thirumalairajan & Mikhail Zaatra<br>
-    o	DataBase: Dawit Alaro  & Angelica Villanueva<br>
+    o	Machine Learning Model : Trong-Quyen Nguyen,Srividhya Thirumalairajan & Mikhail Zaatra<br>
+    o	DataBase: Dawit Alaro  
 
 * Project Tools: Collaboration:<br>
 * Communication Methods:<br>
@@ -108,7 +111,7 @@ Motivation, Housing prices are a hot topic, especially During the COVID-19 Pande
 *   As expected, model 4 is amazingly bad.
 <br>![model 3 sale price prediction plot](Final_Project/images/18_model4_prediction_plot.png)
 
-#### 5.  Conclusion
+#### 5. Segment 4 & Conclusion
 <br>![conclusion rq2_squared](Final_Project/images/20_conclusion_r2_squared.png)
 
 *   With "List_Price", both Regression and Neural Network have high r2_squared scores.  Without the "List_Price", Regression (prediction 2) does a better job at prediction the "Sale_Price" than the Neural Network (prediction 4).
