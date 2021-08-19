@@ -4,7 +4,7 @@
 In this project, we will Predict the average housing prices per SQF for each county in CA. Then we will Visualize the housing prices per county on a Map. 
 We will build Machine Learning Models to help investors and homeowners assess the housing prices in California based on Housing transactions. We will build a  supervised neural network machine learning model using the following independent parameters, Zip Code, House Age, SQFT, and Days on Market.
 
-## Final Presentation Link
+## Final Presentation Link:
 https://docs.google.com/presentation/d/1SLSaP7A9qYda8DJs8cSLIt5KUAKRwIhh00xASNbRn84/edit#slide=id.p
 
 ## Data Source
